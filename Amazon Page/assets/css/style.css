@@ -72,5 +72,32 @@ li {
   display: flex;
 }
 
-.vr {
+#vr {
+  margin-left: 2%;
+  width: 96%;
+  height: 440px;
+  margin-top: 4%;
+  block-size: auto;
+}
+
+.testovr {
+  text-align: center;
+}
+.testocomodino {
+  text-align: center;
+}
+#comodinoimg {
+  margin-left: 2%;
+  width: 96%;
+  height: 440px;
+  margin-top: 4%;
+  block-size: auto;
+}
+.back {
+  background-color: #364759;
+  text-align: center;
+}
+#backid {
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
