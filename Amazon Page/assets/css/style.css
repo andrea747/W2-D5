@@ -51,6 +51,19 @@ li {
   background-size: 92% 65%;
 }
 
+#perfectgift {
+  margin-left: 2%;
+  font-size: 22px;
+  padding-top: 1%;
+}
+
+.DIV1 {
+  background-color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 1%;
+}
+
 .box {
   width: 18%;
   height: 400px;
@@ -60,6 +73,7 @@ li {
   display: flex;
   margin-left: 2%;
   margin-right: 2%;
+  box-shadow: 10px 10px 8px whitesmoke;
 }
 
 .box img {
@@ -70,6 +84,7 @@ li {
 
 .boxup {
   display: flex;
+  justify-content: space-between;
 }
 
 #vr {

@@ -10,33 +10,38 @@ REGOLE
 /* ESERCIZIO 1
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
-const pets = ["dog", "cat", "hamster", "redfish"];
 
-for (let i = 0; i < pets.length; i++) {
-  console.log(pets[i]);
-}
+// const pets = ["dog", "cat", "hamster", "redfish"];
+
+// pets.map((item) => {
+//   console.log(item);
+// });
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
-pets.sort();
-
-console.log(pets);
+// pets.sort();
+// console.log(pets);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
-for (let i = pets.length - 1; i >= 0; i--) console.log(pets[i]);
+// const reversed = pets.reverse();
+// console.log("reversed:", reversed);
 
 /* ESERCIZIO 4
-    Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
+Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 
+// pets.push(pets.shift());
+// console.log(pets);
+
 /* ESERCIZIO 5
-    Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
+Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
+
 const cars = [
   {
     brand: "Ford",
@@ -58,10 +63,27 @@ const cars = [
   },
 ];
 
+// cars.forEach((car) => {
+//   car.licensePlate = "AB123";
+// });
+// console.log(cars);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+
+// const bmwAuto = [
+//   {
+//     brand: "bmw",
+//     model: "m3",
+//     color: "pink",
+//     trims: ["base", "sport", "boost"],
+//   },
+// ];
+
+// cars.push(bmwAuto);
+// console.log(cars);
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
